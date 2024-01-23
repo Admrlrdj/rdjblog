@@ -1,0 +1,1388 @@
+CRITICAL - 2024-01-15 00:43:31 --> PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate.
+in FCPATH\PHPMailer\src\PHPMailer.php on line 2265.
+ 1 FCPATH\PHPMailer\src\PHPMailer.php(2062): PHPMailer\PHPMailer\PHPMailer->smtpConnect([])
+ 2 FCPATH\PHPMailer\src\PHPMailer.php(1689): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 15 Jan 2024 00:43:27 +0000
+To: Admin <admin@gmail.com>
+From: RdjBlog <info@rdjblog.com>
+Subject: Reset Password
+Message-ID: <HC2gV86yNk5S6sMv9QuQrRyOcxKG6WHvkVR2klQLmg@rdjblog.rdj>
+X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+', '<p>Dear Admin</p>
+<p>
+    We are received a request to reset password for RdjBlog account associated with <i>admin@gmail.com</i>.
+    You can reset you password by clicking the button bellow:
+    <br><br>
+    <a href="/admin/password/reset/82ed358ccfcd1fc2fb7d55558af49c656cc0d5ed22561ecda899c1f6de4f96415618dab71c99c5994aa3f8172a9b570b4925a1550a696f4ee7cd562cf72883b545" style="color: #fff; border-color: #22bc66; border-style: solid; border-width: 5px 10px; background-color: #22bc66; display: inline-block; text-decoration: none; border-radius: 3px; box-shadow: 0 2px 3px rgba(0,0,0,0.16); -webkit-text-size-adjust: none; box-sizing: border-box;" target="_blank">Reset Password</a>
+    <br><br>
+    <b>NB:</b> This link will still valid within 15 minutes.
+    <br><br>
+    If you did not request for password reset, please ignore this email.
+</p>
+')
+ 3 FCPATH\PHPMailer\src\PHPMailer.php(1523): PHPMailer\PHPMailer\PHPMailer->postSend()
+ 4 APPPATH\Helpers\CIMail_helper.php(28): PHPMailer\PHPMailer\PHPMailer->send()
+ 5 APPPATH\Controllers\AuthController.php(160): sendEmail([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->sendPasswordResetLink()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 00:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 00:43:48 --> PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate.
+in FCPATH\PHPMailer\src\PHPMailer.php on line 2265.
+ 1 FCPATH\PHPMailer\src\PHPMailer.php(2062): PHPMailer\PHPMailer\PHPMailer->smtpConnect([])
+ 2 FCPATH\PHPMailer\src\PHPMailer.php(1689): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 15 Jan 2024 00:43:45 +0000
+To: Admin <admin@gmail.com>
+From: RdjBlog <info@rdjblog.com>
+Subject: Reset Password
+Message-ID: <qrbUd0FnzWghDQKRKP6cUsBfJODanCcGEwdAAUcIjY0@rdjblog.rdj>
+X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+', '<!-- DEBUG-VIEW START 1 APPPATH\\Views\\email-templates\\forgot-email-template.php -->
+<p>Dear Admin</p>
+<p>
+    We are received a request to reset password for RdjBlog account associated with <i>admin@gmail.com</i>.
+    You can reset you password by clicking the button bellow:
+    <br><br>
+    <a href="/admin/password/reset/31e7d409ab0b0f7001fa4e5ffbe06df8407e984ae27eda2b80b64043a72426e1c3eb169f3758da38766e9c0ffbbb1ecf92112abbff09b34f7cfe7d447decddcc80" style="color: #fff; border-color: #22bc66; border-style: solid; border-width: 5px 10px; background-color: #22bc66; display: inline-block; text-decoration: none; border-radius: 3px; box-shadow: 0 2px 3px rgba(0,0,0,0.16); -webkit-text-size-adjust: none; box-sizing: border-box;" target="_blank">Reset Password</a>
+    <br><br>
+    <b>NB:</b> This link will still valid within 15 minutes.
+    <br><br>
+    If you did not request for password reset, please ignore this email.
+</p>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\email-templates\\forgot-email-template.php -->
+')
+ 3 FCPATH\PHPMailer\src\PHPMailer.php(1523): PHPMailer\PHPMailer\PHPMailer->postSend()
+ 4 APPPATH\Helpers\CIMail_helper.php(28): PHPMailer\PHPMailer\PHPMailer->send()
+ 5 APPPATH\Controllers\AuthController.php(160): sendEmail([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->sendPasswordResetLink()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 00:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 00:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 01:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 01:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 01:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 01:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 01:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 01:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 01:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 01:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 01:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 01:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 01:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 02:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 03:19:11 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\AuthController.php on line 177.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 04:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 04:08:28 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\AuthController.php on line 177.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 05:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 05:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 05:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 05:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 05:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 06:10:47 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/reset-password-handler/(:any)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1365.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1170): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(964): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(10): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(182): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->resetPassword('a697a6296f865b5a9b65acb728e196050f8fafe54cf7e9f9eb5069de42d816c140ae1c8d36d424587b801a5a7a85bbee0b4ecf3b2c69b8f04c1e1715ea81e87f48')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 06:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 06:14:09 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/reset-password-handler/(:any)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1365.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1170): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(964): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(10): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(182): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->resetPassword('a697a6296f865b5a9b65acb728e196050f8fafe54cf7e9f9eb5069de42d816c140ae1c8d36d424587b801a5a7a85bbee0b4ecf3b2c69b8f04c1e1715ea81e87f48')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 06:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 06:14:40 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/reset-password-handler/(:any)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1365.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1170): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(964): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(10): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(182): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->resetPassword('2a12a5d9fde352c986e170322c4961ec2b0305fde5efad169782b5e3bd56889a04353d831859c52da69ff5c6f955df691eaeefb642de725f1d783558c838b314dd')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 06:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 06:15:53 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/reset-password-handler/(:any)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1365.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1170): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(964): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(10): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(182): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->resetPassword('385a5c4a46661cbf96d2874f77c16ef4eb880a5fc1812da696ca4bbe2aec9edef359f149c6dd84055fa1d9cca0e8a7ae7dabef2808321965a40961dd8eead38809')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 06:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 06:42:50 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/reset-password-handler/(:any)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1365.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1170): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(964): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(10): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(182): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->resetPassword('9e2888ae7d68f75c75f6a20e6c6515d3af94a50cdc75fcb5dbcfb08156edefde44d3b6ff6595a2bdcb64be71e9c56298bdd2e7a73d5f56de4e09724d84017b7b64')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 06:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 06:43:05 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/reset-password-handler/(:any)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1365.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1170): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(964): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(10): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(182): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->resetPassword('9e2888ae7d68f75c75f6a20e6c6515d3af94a50cdc75fcb5dbcfb08156edefde44d3b6ff6595a2bdcb64be71e9c56298bdd2e7a73d5f56de4e09724d84017b7b64')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 06:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 06:43:06 --> InvalidArgumentException: Missing argument for "(:any)" in route "admin/reset-password-handler/(:any)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1365.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1170): CodeIgniter\Router\RouteCollection->buildReverseRoute('admin/reset-password-handler/(:any)', [])
+ 2 SYSTEMPATH\Common.php(964): CodeIgniter\Router\RouteCollection->reverseRoute('reset-password-handler')
+ 3 APPPATH\Views\backend\pages\auth\reset.php(10): route_to('reset-password-handler')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\auth\\reset.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/auth/reset', [], true)
+ 7 APPPATH\Controllers\AuthController.php(182): view('backend/pages/auth/reset', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->resetPassword('9e2888ae7d68f75c75f6a20e6c6515d3af94a50cdc75fcb5dbcfb08156edefde44d3b6ff6595a2bdcb64be71e9c56298bdd2e7a73d5f56de4e09724d84017b7b64')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 06:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 07:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:51:39 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:51:59 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:52:14 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:52:27 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:52:28 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:54:12 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\backend\pages\home.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 4 APPPATH\Controllers\AdminController.php(19): view('backend/pages/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:54:15 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\backend\pages\home.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 4 APPPATH\Controllers\AdminController.php(19): view('backend/pages/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:54:32 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\home.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 4 APPPATH\Controllers\AdminController.php(19): view('backend/pages/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:54:35 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\home.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 4 APPPATH\Controllers\AdminController.php(19): view('backend/pages/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:55:48 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\home.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 4 APPPATH\Controllers\AdminController.php(19): view('backend/pages/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:55:51 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\home.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 4 APPPATH\Controllers\AdminController.php(19): view('backend/pages/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:55:58 --> Error: Call to undefined function a()
+in APPPATH\Views\backend\pages\home.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 4 APPPATH\Controllers\AdminController.php(19): view('backend/pages/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 10:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 10:57:25 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:08 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:09 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:09 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:09 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:09 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:10 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:10 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:10 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:10 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:10 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:11 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:11 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:11 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:11 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:11 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:11 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:12 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:12 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:12 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:12 --> ErrorException: include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:15 --> ErrorException: include_once(app/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\pages\profile.php on line 3.
+ 1 APPPATH\Views\backend\pages\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(app/Libraries/CIFunctions_helper.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 3)
+ 2 APPPATH\Views\backend\pages\profile.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 6 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:18 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:34 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:35 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:00:35 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:01:22 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-15 11:05:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$User is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-15 11:05:01 --> mysqli_sql_exception: Table 'rdjblog.$table' doesn't exist in C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjblog\app\Models\User.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjblog\app\Controllers\AdminController.php(35): App\Models\User->Data()
+#6 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+#7 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjblog\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-15 11:05:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'rdjblog.$table' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `$table`', [], false)
+ 2 APPPATH\Models\User.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\AdminController.php(35): App\Models\User->Data()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 11:05:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'rdjblog.$table' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `$table`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `$table`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `$table`', [], false)
+ 4 APPPATH\Models\User.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\AdminController.php(35): App\Models\User->Data()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 11:05:01 --> [Caused by] mysqli_sql_exception: Table 'rdjblog.$table' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `$table`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `$table`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `$table`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `$table`', [], false)
+ 5 APPPATH\Models\User.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(35): App\Models\User->Data()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-15 11:05:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$User is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 11:05:13 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(39): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-15 11:05:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$User is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 11:05:59 --> ErrorException: Undefined variable $profile
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 APPPATH\Views\backend\pages\profile.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 5 APPPATH\Controllers\AdminController.php(39): view('backend/pages/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-15 11:08:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$User is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 11:08:41 --> ErrorException: Undefined variable $profile
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 APPPATH\Views\backend\pages\profile.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 5 APPPATH\Controllers\AdminController.php(39): view('backend/pages/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-15 11:08:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$User is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-15 11:08:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$User is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-15 11:09:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$User is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 11:09:11 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(39): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 11:10:05 --> Error: Call to undefined function get_user()
+in APPPATH\Views\backend\pages\profile.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(34): view('backend/pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 11:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:31:27 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:03 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:04 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:04 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:04 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:05 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:05 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:05 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:05 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:05 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:05 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:06 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:06 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:06 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:06 --> Error: Class "App\Models\Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 22.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 23:32:13 --> Error: Class "Setting" not found
+in APPPATH\Helpers\CIFunctions_helper.php on line 21.
+ 1 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 5 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-15 23:32:39 --> mysqli_sql_exception: Table 'rdjblog.settings' doesn't exist in C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\rdjblog\app\Helpers\CIFunctions_helper.php(23): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\rdjblog\app\Views\backend\pages\settings.php(47): get_settings()
+#8 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Common.php(1178): CodeIgniter\View\View->render('backend/pages/s...', Array, true)
+#11 C:\xampp\htdocs\rdjblog\app\Controllers\AdminController.php(138): view('backend/pages/s...', Array)
+#12 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+#13 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#14 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\rdjblog\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2024-01-15 23:32:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'rdjblog.settings' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Helpers\CIFunctions_helper.php(23): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+ 9 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 23:32:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'rdjblog.settings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `settings`
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `settings`
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Helpers\CIFunctions_helper.php(23): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 8 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+ 9 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+11 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+12 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+13 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+14 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 23:32:39 --> [Caused by] mysqli_sql_exception: Table 'rdjblog.settings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `settings`
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `settings`
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `settings`
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Helpers\CIFunctions_helper.php(23): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Views\backend\pages\settings.php(47): get_settings()
+ 9 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\backend\\pages\\settings.php')
+10 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/settings', [], true)
+12 APPPATH\Controllers\AdminController.php(138): view('backend/pages/settings', [...])
+13 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->settings()
+14 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 23:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 23:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
