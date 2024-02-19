@@ -1,0 +1,314 @@
+CRITICAL - 2024-02-01 00:14:25 --> ErrorException: Attempt to read property "title" on null
+in APPPATH\Controllers\BlogController.php on line 123.
+ 1 APPPATH\Controllers\BlogController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('images', 'post', 'post-9.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:14:25 --> ErrorException: Attempt to read property "title" on null
+in APPPATH\Controllers\BlogController.php on line 123.
+ 1 APPPATH\Controllers\BlogController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('images', 'post', 'post-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:14:25 --> ErrorException: Attempt to read property "title" on null
+in APPPATH\Controllers\BlogController.php on line 123.
+ 1 APPPATH\Controllers\BlogController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('images', 'post', 'post-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:16:47 --> ErrorException: Attempt to read property "title" on null
+in APPPATH\Controllers\BlogController.php on line 123.
+ 1 APPPATH\Controllers\BlogController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('images', 'post', 'post-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-01 00:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-01 00:34:38 --> ErrorException: Attempt to read property "title" on null
+in APPPATH\Controllers\BlogController.php on line 123.
+ 1 APPPATH\Controllers\BlogController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('routing')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:34:46 --> ErrorException: Attempt to read property "title" on null
+in APPPATH\Controllers\BlogController.php on line 123.
+ 1 APPPATH\Controllers\BlogController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('routing')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-01 00:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 00:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-01 00:35:23 --> ErrorException: Attempt to read property "title" on null
+in APPPATH\Controllers\BlogController.php on line 123.
+ 1 APPPATH\Controllers\BlogController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('routing')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:38:53 --> ErrorException: Attempt to read property "title" on null
+in APPPATH\Controllers\BlogController.php on line 123.
+ 1 APPPATH\Controllers\BlogController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('routing')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:39:00 --> ErrorException: Attempt to read property "meta_description" on null
+in APPPATH\Views\frontend\pages\single_post.php on line 3.
+ 1 APPPATH\Views\frontend\pages\single_post.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "meta_description" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\single_post.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\single_post.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/single_post', [], true)
+ 5 APPPATH\Controllers\BlogController.php(126): view('frontend/pages/single_post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('routing')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:39:17 --> ErrorException: Attempt to read property "meta_description" on null
+in APPPATH\Views\frontend\pages\single_post.php on line 3.
+ 1 APPPATH\Views\frontend\pages\single_post.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "meta_description" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\single_post.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\single_post.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/single_post', [], true)
+ 5 APPPATH\Controllers\BlogController.php(126): view('frontend/pages/single_post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('routing')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:39:18 --> ErrorException: Attempt to read property "meta_description" on null
+in APPPATH\Views\frontend\pages\single_post.php on line 3.
+ 1 APPPATH\Views\frontend\pages\single_post.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "meta_description" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\single_post.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\single_post.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/single_post', [], true)
+ 5 APPPATH\Controllers\BlogController.php(126): view('frontend/pages/single_post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('routing')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:39:31 --> ErrorException: Attempt to read property "title" on null
+in APPPATH\Controllers\BlogController.php on line 123.
+ 1 APPPATH\Controllers\BlogController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('routing')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:40:10 --> ErrorException: Attempt to read property "title" on null
+in APPPATH\Controllers\BlogController.php on line 123.
+ 1 APPPATH\Controllers\BlogController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('routing')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:40:11 --> ErrorException: Attempt to read property "title" on null
+in APPPATH\Controllers\BlogController.php on line 123.
+ 1 APPPATH\Controllers\BlogController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('routing')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-01 00:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-01 00:40:18 --> ErrorException: Undefined property: stdClass::$blog_meta_description
+in APPPATH\Views\frontend\pages\single_post.php on line 3.
+ 1 APPPATH\Views\frontend\pages\single_post.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$blog_meta_description', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\single_post.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\single_post.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/single_post', [], true)
+ 5 APPPATH\Controllers\BlogController.php(126): view('frontend/pages/single_post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('routing')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-01 00:53:08 --> mysqli_sql_exception: Unknown column 'visibilitiy' in 'where clause' in C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\rdjblog\app\Helpers\CIFunctions_helper.php(224): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\rdjblog\app\Views\frontend\pages\single_post.php(57): get_previous_post('15')
+#8 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#11 C:\xampp\htdocs\rdjblog\app\Controllers\BlogController.php(126): view('frontend/pages/...', Array)
+#12 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\BlogController->readPost('asd')
+#13 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+#14 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\rdjblog\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2024-02-01 00:53:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'visibilitiy' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `id` < :id:
+AND `visibilitiy` = :visibilitiy:
+ORDER BY `id` DESC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Helpers\CIFunctions_helper.php(224): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Views\frontend\pages\single_post.php(57): get_previous_post('15')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\single_post.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/single_post', [], true)
+ 9 APPPATH\Controllers\BlogController.php(126): view('frontend/pages/single_post', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('asd')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:53:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'visibilitiy' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `posts`
+WHERE `id` < \'15\'
+AND `visibilitiy` = 1
+ORDER BY `id` DESC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `posts`
+WHERE `id` < \'15\'
+AND `visibilitiy` = 1
+ORDER BY `id` DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `id` < :id:
+AND `visibilitiy` = :visibilitiy:
+ORDER BY `id` DESC
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Helpers\CIFunctions_helper.php(224): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Views\frontend\pages\single_post.php(57): get_previous_post('15')
+ 8 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\single_post.php')
+ 9 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/single_post', [], true)
+11 APPPATH\Controllers\BlogController.php(126): view('frontend/pages/single_post', [...])
+12 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('asd')
+13 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+14 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-01 00:53:08 --> [Caused by] mysqli_sql_exception: Unknown column 'visibilitiy' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `posts`
+WHERE `id` < \'15\'
+AND `visibilitiy` = 1
+ORDER BY `id` DESC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `posts`
+WHERE `id` < \'15\'
+AND `visibilitiy` = 1
+ORDER BY `id` DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `posts`
+WHERE `id` < \'15\'
+AND `visibilitiy` = 1
+ORDER BY `id` DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `id` < :id:
+AND `visibilitiy` = :visibilitiy:
+ORDER BY `id` DESC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Helpers\CIFunctions_helper.php(224): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Views\frontend\pages\single_post.php(57): get_previous_post('15')
+ 9 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\single_post.php')
+10 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/single_post', [], true)
+12 APPPATH\Controllers\BlogController.php(126): view('frontend/pages/single_post', [...])
+13 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('asd')
+14 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-01 01:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 01:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-01 02:03:28 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 31.
+ 1 APPPATH\Controllers\BlogController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('asdasd')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

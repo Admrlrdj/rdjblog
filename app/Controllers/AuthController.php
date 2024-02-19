@@ -83,6 +83,89 @@ class AuthController extends BaseController
         }
     }
 
+    // public function loginAPI()
+    // {
+    //     $fieldType = filter_var($this->request->getVar('login_id'), FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
+
+    //     if ($fieldType == 'email') {
+    //         $isValid = $this->validate([
+    //             'login_id' => [
+    //                 'rules' => 'required|valid_email|is_not_unique[users.email]',
+    //                 'errors' => [
+    //                     'required' => 'Email is required!',
+    //                     'valid_email' => 'Please enter a valid email format!',
+    //                     'is_not_unique' => 'Email not available',
+    //                 ]
+    //             ],
+    //             'password' => [
+    //                 'rules' => 'required|min_length[5]|max_length[25]',
+    //                 'errors' => [
+    //                     'required' => 'Password is required!',
+    //                     'min_length' => 'The password must be at least 5 characters long',
+    //                     'max_length' => 'The password must have a maximum length of 25 characters',
+    //                 ]
+    //             ]
+    //         ]);
+    //     } else {
+    //         $isValid = $this->validate([
+    //             'login_id' => [
+    //                 'rules' => 'required|is_not_unique[users.username]',
+    //                 'errors' => [
+    //                     'required' => 'Username is required!',
+    //                     'is_not_unique' => 'Username not available',
+    //                 ]
+    //             ],
+    //             'password' => [
+    //                 'rules' => 'required|min_length[5]|max_length[25]',
+    //                 'errors' => [
+    //                     'required' => 'Password is required!',
+    //                     'min_length' => 'The password must be at least 5 characters long',
+    //                     'max_length' => 'The password must have a maximum length of 25 characters',
+    //                 ]
+    //             ]
+    //         ]);
+    //     }
+
+    //     if (!$isValid) {
+    //         $response = [
+    //             'status' => 0,
+    //             'message' => 'Validation failed',
+    //             'errors' => $this->validator->getErrors(),
+    //         ];
+
+    //         return json_encode($response);
+    //     } else {
+    //         $user = new User();
+    //         $userInfo = $user->where($fieldType, $this->request->getVar('login_id'))->first();
+    //         $check_password = Hash::check($this->request->getVar('password'), $userInfo['password']);
+
+    //         if (!$check_password) {
+    //             $response = [
+    //                 'status' => 0,
+    //                 'message' => 'Wrong Password',
+    //             ];
+
+    //             return json_encode($response);
+    //         } else {
+    //             CIAuth::setCIAuth($userInfo);
+
+    //             $response = [
+    //                 'status' => 1,
+    //                 'user' => [
+    //                     'id' => $userInfo['id'],
+    //                     'username' => $userInfo['username'],
+    //                     'email' => $userInfo['email'],
+    //                     'password' => $userInfo['password'],
+    //                     'picture' => $userInfo['picture'],
+    //                     'bio' => $userInfo['bio'],
+    //                 ],
+    //             ];
+
+    //             return json_encode($response);
+    //         }
+    //     }
+    // }
+
     public function forgotForm()
     {
         $data = array(

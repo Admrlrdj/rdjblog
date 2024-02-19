@@ -5,7 +5,13 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'AuthController::loginForm');
+$routes->get('/', 'BlogController::index');
+$routes->get('post/(:any)', 'BlogController::readPost/$1', ['as' => 'read-post']);
+$routes->get('category/(:any)', 'BlogController::categoryPosts/$1', ['as' => 'category-posts']);
+$routes->get('tag/(:any)', 'BlogController::tagPosts/$1', ['as' => 'tag-posts']);
+$routes->get('search', 'BlogController::searchPosts', ['as' => 'search-posts']);
+$routes->get('contact-us', 'BlogController::contactUs', ['as' => 'contact-us']);
+$routes->post('contact-us', 'BlogController::contactUsSend', ['as' => 'contact-us-send']);
 
 $routes->group('admin', static function ($routes) {
     $routes->group('', ['filter' => 'cifilter:auth'], static function ($routes) {
@@ -40,13 +46,18 @@ $routes->group('admin', static function ($routes) {
         $routes->group('posts', static function ($routes) {
             $routes->get('new-post', 'AdminController::addPost', ['as' => 'new-post']);
             $routes->post('create-post', 'AdminController::createPost', ['as' => 'create-post']);
-            $routes->get('all-post', 'AdminController::allPost', ['as' => 'all-post']);
+            $routes->get('/', 'AdminController::allPosts', ['as' => 'all-posts']);
+            $routes->get('get-posts', 'AdminController::getPosts', ['as' => 'get-posts']);
+            $routes->get('edit-post/(:any)', 'AdminController::editPost/$1', ['as' => 'edit-post']);
+            $routes->post('update-post', 'AdminController::updatePost', ['as' => 'update-post']);
+            $routes->get('delete-post', 'AdminController::deletePost', ['as' => 'delete-post']);
         });
     });
     $routes->group('', ['filter' => 'cifilter:guest'], static function ($routes) {
         // $routes->view('example-auth', 'example-auth');
         $routes->get('login', 'AuthController::loginForm', ['as' => 'admin.login.form']);
         $routes->post('login', 'AuthController::loginHandler', ['as' => 'admin.login.handler']);
+        // $routes->post('logina', 'AuthController::loginAPI', ['as' => 'admin.login.api']);
         $routes->get('forgot-password', 'AuthController::forgotForm', ['as' => 'admin.forgot.form']);
         $routes->post('send-password-reset-link', 'AuthController::sendPasswordResetLink', ['as' => 'send_password_reset_link']);
         $routes->get('password/reset/(:any)', 'AuthController::resetPassword/$1', ['as' => 'admin.reset-password']);

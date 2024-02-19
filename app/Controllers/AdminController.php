@@ -558,19 +558,44 @@ class AdminController extends BaseController
             //! Check postingan terkait lewat sub category
 
             //! Delete category
-            $delete = $category->delete($id);
+            // $delete = $category->delete($id);
 
-            if ($delete) {
-                return $this->response->setJSON([
-                    'status' => 1,
-                    'token' => csrf_hash(),
-                    'msg' => 'Category has been successfully deleted.'
-                ]);
-            } else {
+            // if ($delete) {
+            //     return $this->response->setJSON([
+            //         'status' => 1,
+            //         'token' => csrf_hash(),
+            //         'msg' => 'Category has been successfully deleted.'
+            //     ]);
+            // } else {
+            //     return $this->response->setJSON([
+            //         'status' => 0,
+            //         'msg' => 'Something went wrong.'
+            //     ]);
+            // }
+
+            $subcategory = new SubCategory();
+            $subcategories = $subcategory->where('parent_cat', $id)->findAll();
+            if ($subcategories) {
+                $msg = count($subcategories) == 1 ? 'There is (' . count($subcategories) . ') Sub category related to this parent category, so that it can not be deleted. ' : 'There are (' . count($subcategories) . ') Sub categories realted to this parent category , so that it can not be deleted.';
                 return $this->response->setJSON([
                     'status' => 0,
-                    'msg' => 'Something went wrong.'
+                    'msg' => $msg
                 ]);
+            } else {
+                $delete = $category->where('id', $id)->delete();
+
+                if ($delete) {
+                    return $this->response->setJSON([
+                        'status' => 1,
+                        'token' => csrf_hash(),
+                        'msg' => 'Category has been successfully deleted.'
+                    ]);
+                } else {
+                    return $this->response->setJSON([
+                        'status' => 0,
+                        'msg' => 'Something went wrong.'
+                    ]);
+                }
             }
         }
     }
@@ -718,7 +743,10 @@ class AdminController extends BaseController
                 "db" => "id",
                 "dt" => 3,
                 "formatter" => function ($d, $row) {
-                    return "(x) will be added later";
+                    // return "(x) will be added later";
+                    $post = new Post();
+                    $posts = $post->where(['category_id' => $row['id']])->findAll();
+                    return count($posts);
                 }
             ),
             array(
@@ -740,6 +768,7 @@ class AdminController extends BaseController
         );
 
         return json_encode(
+            // $columns
             SSP::simple($_GET, $dbDetails, $table, $primaryKey, $columns)
         );
     }
@@ -821,19 +850,44 @@ class AdminController extends BaseController
             //! Check postingan terkait
 
             //! Delete sub category
-            $delete = $subcategory->where('id', $id)->delete();
+            // $delete = $subcategory->where('id', $id)->delete();
 
-            if ($delete) {
-                return $this->response->setJSON([
-                    'status' => 1,
-                    'token' => csrf_hash(),
-                    'msg' => 'Category has been successfully deleted.'
-                ]);
-            } else {
+            // if ($delete) {
+            //     return $this->response->setJSON([
+            //         'status' => 1,
+            //         'token' => csrf_hash(),
+            //         'msg' => 'Category has been successfully deleted.'
+            //     ]);
+            // } else {
+            //     return $this->response->setJSON([
+            //         'status' => 0,
+            //         'msg' => 'Something went wrong.'
+            //     ]);
+            // }
+
+            $post = new Post();
+            $posts = $post->where('category_id', $id)->findAll();
+            if ($posts) {
+                $msg = count($posts) == 1 ? 'There is (' . count($posts) . ') Post related to this sub category, so that it can not be deleted. ' : 'There are (' . count($posts) . ') Posts related to this parent category , so that it can not be deleted.';
                 return $this->response->setJSON([
                     'status' => 0,
-                    'msg' => 'Something went wrong.'
+                    'msg' => $msg
                 ]);
+            } else {
+                $delete = $subcategory->where('id', $id)->delete();
+
+                if ($delete) {
+                    return $this->response->setJSON([
+                        'status' => 1,
+                        'token' => csrf_hash(),
+                        'msg' => 'Category has been successfully deleted.'
+                    ]);
+                } else {
+                    return $this->response->setJSON([
+                        'status' => 0,
+                        'msg' => 'Something went wrong.'
+                    ]);
+                }
             }
         }
     }
@@ -914,7 +968,8 @@ class AdminController extends BaseController
                 $user_id = CIAuth::id();
                 $path = 'images/posts/';
                 $file = $request->getFile('featured_image');
-                $filename = $file->getClientName();
+                // $filename = $file->getClientName();
+                $filename = 'pimg_' . time() . $file->getClientName();
 
                 //! Buat Postingan Featured Image Folder Tidak Tersedia
                 if (!is_dir($path)) {
@@ -961,13 +1016,281 @@ class AdminController extends BaseController
         }
     }
 
-    public function allPost()
+    public function allPosts()
     {
-        $subcategory = new SubCategory();
         $data = [
             'tabTitle' => 'All Post',
-            'categories' => $subcategory->asObject()->findAll(),
         ];
-        return view('backend/pages/all-post', $data);
+        return view('backend/pages/all-posts', $data);
+    }
+
+    public function getPosts()
+    {
+        // $post = new Post();
+        $dbDetails = array(
+            "host" => $this->db->hostname,
+            "user" => $this->db->username,
+            "pass" => $this->db->password,
+            "db" => $this->db->database,
+        );
+        $table = "posts";
+        $primaryKey = "id";
+        $columns = array(
+            array(
+                "db" => "id",
+                "dt" => 0
+            ),
+            array(
+                "db" => "id",
+                "dt" => 1,
+                "formatter" => function ($d, $row) {
+                    $post = new Post();
+                    $image = $post->asObject()->find($row['id'])->featured_image;
+                    return "<img src='/images/posts/thumb_$image' class='img-thumbnail' style='max-width:70px'>";
+                },
+            ),
+            array(
+                "db" => "title",
+                "dt" => 2
+            ),
+            array(
+                "db" => "id",
+                "dt" => 3,
+                "formatter" => function ($d, $row) {
+                    $post = new Post();
+                    $category_id = $post->asObject()->find($row['id'])->category_id;
+                    $subcategory = new SubCategory();
+                    $category_name = $subcategory->asObject()->find($category_id)->name;
+                    return $category_name;
+                },
+            ),
+            array(
+                "db" => "id",
+                "dt" => 4,
+                "formatter" => function ($d, $row) {
+                    $post = new Post();
+                    $visibility = $post->asObject()->find($row['id'])->visibility;
+                    return $visibility == 1 ? 'Public' : 'Private';
+                },
+            ),
+            array(
+                "db" => "id",
+                "dt" => 5,
+                "formatter" => function ($d, $row) {
+                    return "
+                        <div class='btn btn-group'>
+                            <a href='#' class='btn btn-sm btn-link p-0 mx-1'>View</a>
+                            <a href='" . route_to('edit-post', $row['id']) . "' class='btn btn-sm btn-link p-0 mx-1'>Edit</a>
+                            <button class='btn btn-sm btn-link p-0 mx-1 deletePostBtn' data-id='" . $row['id'] . "'>Delete</button>
+                        </div>
+                    ";
+                },
+            )
+        );
+
+        return json_encode(
+            // $columns
+            SSP::simple($_GET, $dbDetails, $table, $primaryKey, $columns)
+        );
+    }
+
+    public function editPost($id)
+    {
+        $subcategory = new SubCategory();
+        $post = new Post();
+        $data = [
+            'tabTitle' => 'Edit Post',
+            'categories' => $subcategory->asObject()->findAll(),
+            'post' => $post->asObject()->find($id)
+        ];
+        return view('backend/pages/edit-post', $data);
+    }
+
+    public function updatePost()
+    {
+        $request = \Config\Services::request();
+
+        if ($request->isAJAX()) {
+            $validation = \Config\Services::validation();
+            $post_id = $request->getVar('post_id');
+            $user_id = CIAuth::id();
+            $post = new Post();
+
+            if (isset($_FILES['featured_image']['name']) && !empty($_FILES['featured_image']['name'])) {
+                $this->validate([
+                    'title' => [
+                        'rules' => 'required|is_unique[posts.title,id,' . $post_id . ']',
+                        'errors' => [
+                            'required' => 'Post Title is required',
+                            'is_unique' => 'This Post Title is already exists',
+                        ]
+                    ],
+                    'content' => [
+                        'rules' => 'required|min_length[20]',
+                        'errors' => [
+                            'required' => 'Post content is required',
+                            'min_length' => 'Post content must have atleast 20 characters',
+                        ]
+                    ],
+                    'featured_image' => [
+                        'rules' => 'uploaded[featured_image]|is_image[featured_image]|max_size[featured_image, 2048]',
+                        'errors' => [
+                            'uploaded' => 'Featured image is required',
+                            'is_image' => 'Select an image file type',
+                            'max_size' => 'Select image that not excess 2MB is size',
+                        ]
+                    ],
+                ]);
+            } else {
+                $this->validate([
+                    'title' => [
+                        'rules' => 'required|is_unique[posts.title,id,' . $post_id . ']',
+                        'errors' => [
+                            'required' => 'Post Title is required',
+                            'is_unique' => 'This Post Title is already exists',
+                        ]
+                    ],
+                    'content' => [
+                        'rules' => 'required|min_length[20]',
+                        'errors' => [
+                            'required' => 'Post content is required',
+                            'min_length' => 'Post content must have atleast 20 characters',
+                        ]
+                    ],
+                ]);
+            }
+
+            if ($validation->run() === FALSE) {
+                $errors = $validation->getErrors();
+                return $this->response->setJSON([
+                    'status' => 0,
+                    'token' => csrf_hash(),
+                    'error' => $errors
+                ]);
+            } else {
+                // return $this->response->setJSON([
+                //     'status' => 1,
+                //     'token' => csrf_hash(),
+                //     'msg' => 'y',
+                // ]);
+                if (isset($_FILES['featured_image']['name']) && !empty($_FILES['featured_image']['name'])) {
+                    $path = 'images/posts/';
+                    $file = $request->getFile('featured_image');
+                    // $filename = $file->getClientName();
+                    $filename = 'pimg_' . time() . $file->getClientName();
+                    $old_post_featured_image = $post->asObject()->find($post_id)->featured_image;
+
+                    if ($file->move($path, $filename)) {
+                        //! Buat Thumb Image
+                        \Config\Services::image()->withFile($path . $filename)->fit(150, 150, 'center')->save($path . 'thumb_' . $filename);
+
+                        //! Buat Resized Image
+                        \Config\Services::image()->withFile($path . $filename)->resize(450, 300, true, 'width')->save($path . 'resized_' . $filename);
+
+                        //! Hapus Image Lama
+                        if ($old_post_featured_image != null && file_exists($path . $old_post_featured_image)) {
+                            unlink($path . $old_post_featured_image);
+                        }
+
+                        if (file_exists($path . 'thumb_' . $old_post_featured_image)) {
+                            unlink($path . 'thumb_' . $old_post_featured_image);
+                        }
+
+                        if (file_exists($path . 'resized_' . $old_post_featured_image)) {
+                            unlink($path . 'resized_' . $old_post_featured_image);
+                        }
+
+                        //! Update Post ke DB
+                        $data = array(
+                            'author_id' => $user_id,
+                            'category_id' => $request->getVar('category'),
+                            'title' => $request->getVar('title'),
+                            'slug' => SlugService::model(Post::class)->make($request->getVar('title')),
+                            'content' => $request->getVar('content'),
+                            'featured_image' => $filename,
+                            'tags' => $request->getVar('tags'),
+                            'meta_keywords' => $request->getVar('meta_keywords'),
+                            'meta_description' => $request->getVar('meta_description'),
+                            'visibility' => $request->getVar('visibility'),
+                        );
+
+                        $update = $post->update($post_id, $data);
+                        if ($update) {
+                            return $this->response->setJSON(['status' => 1, 'token' => csrf_hash(), 'msg' => 'Blog post has been successfully updated.']);
+                        } else {
+                            return $this->response->setJSON(['status' => 0, 'token' => csrf_hash(), 'msg' => 'Something went wrong']);
+                        }
+                    } else {
+                        return $this->response->setJSON([
+                            'status' => 0,
+                            'token' => csrf_hash(),
+                            'msg' => 'Error on uploading featured image.'
+                        ]);
+                    }
+                } else {
+                    //! Update Post ke DB
+                    $data = array(
+                        'author_id' => $user_id,
+                        'category_id' => $request->getVar('category'),
+                        'title' => $request->getVar('title'),
+                        'slug' => SlugService::model(Post::class)->make($request->getVar('title')),
+                        'content' => $request->getVar('content'),
+                        'tags' => $request->getVar('tags'),
+                        'meta_keywords' => $request->getVar('meta_keywords'),
+                        'meta_description' => $request->getVar('meta_description'),
+                        'visibility' => $request->getVar('visibility'),
+                    );
+
+                    $update = $post->update($post_id, $data);
+                    if ($update) {
+                        return $this->response->setJSON(['status' => 1, 'token' => csrf_hash(), 'msg' => 'Blog post has been successfully updated.']);
+                    } else {
+                        return $this->response->setJSON(['status' => 0, 'token' => csrf_hash(), 'msg' => 'Something went wrong']);
+                    }
+                }
+            }
+        }
+    }
+
+    public function deletePost()
+    {
+        $request = \Config\Services::request();
+
+        if ($request->isAJAX()) {
+            $path = 'images/posts/';
+            $post_id = $request->getVar('post_id');
+            $post = new Post();
+            $postInfo = $post->asObject()->find($post_id);
+            $post_featured_image = $postInfo->featured_image;
+
+            //! Delete Image Post
+            if ($post_featured_image != null && file_exists($path . $post_featured_image)) {
+                unlink($path . $post_featured_image);
+            }
+
+            if (file_exists($path . 'thumb_' . $post_featured_image)) {
+                unlink($path . 'thumb_' . $post_featured_image);
+            }
+
+            if (file_exists($path . 'resized_' . $post_featured_image)) {
+                unlink($path . 'resized_' . $post_featured_image);
+            }
+
+            //! Delete Post di DB
+            $delete = $post->delete($post_id);
+
+            if ($delete) {
+                return $this->response->setJSON([
+                    'status' => 1,
+                    'token' => csrf_hash(),
+                    'msg' => 'Post has been successfully deleted.'
+                ]);
+            } else {
+                return $this->response->setJSON([
+                    'status' => 0,
+                    'msg' => 'Something went wrong.'
+                ]);
+            }
+        }
     }
 }

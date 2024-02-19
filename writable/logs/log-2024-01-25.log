@@ -1,0 +1,928 @@
+INFO - 2024-01-25 00:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:03:19 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1039): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:03:34 --> ArgumentCountError: Too few arguments to function SSP::simple(), 4 passed in C:\xampp\htdocs\rdjblog\app\Controllers\AdminController.php on line 1039 and at least 5 expected
+in APPPATH\ThirdParty\ssp.php on line 221.
+ 1 APPPATH\Controllers\AdminController.php(1039): SSP::simple([], [...], 'posts', 'id')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:23:06 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1038): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:24:09 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1038): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:24:22 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(743): SSP::simple([], [...], 'sub_categories', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getSubCategories()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:25:17 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1038): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:25:38 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1037): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:25:38 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1037): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:25:39 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1037): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:27:23 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1037): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-25 00:27:36 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1037): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:28:06 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1037): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:28:57 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1037): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:28:58 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1037): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:29:01 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:29:16 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:29:46 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:30:03 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:30:13 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:30:26 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:30:29 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:30:32 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:31:19 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:35:07 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:40:45 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:43:09 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:43:14 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:46:49 --> ParseError: syntax error, unexpected token ")", expecting "("
+in APPPATH\Controllers\AdminController.php on line 992.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:46:56 --> ParseError: syntax error, unexpected token ")", expecting "("
+in APPPATH\Controllers\AdminController.php on line 992.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 00:51:19 --> ErrorException: Undefined variable $image
+in APPPATH\Controllers\AdminController.php on line 999.
+ 1 APPPATH\Controllers\AdminController.php(999): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 999)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 00:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 00:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:03:16 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:04:01 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:06:07 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1036): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:11:25 --> ArgumentCountError: json_encode() expects at least 1 argument, 0 given
+in APPPATH\Controllers\AdminController.php on line 742.
+ 1 APPPATH\Controllers\AdminController.php(742): json_encode()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getSubCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:13:25 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1038): SSP::simple([], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:31:50 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:32:09 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:32:21 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:33:12 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:33:16 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:33:36 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:33:38 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:35:09 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:35:21 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:36:41 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:37:09 --> ErrorException: Trying to access array offset on value of type int
+in APPPATH\Controllers\AdminController.php on line 993.
+ 1 APPPATH\Controllers\AdminController.php(993): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 993)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1037): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:37:14 --> ErrorException: Trying to access array offset on value of type int
+in APPPATH\Controllers\AdminController.php on line 455.
+ 1 APPPATH\Controllers\AdminController.php(455): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 455)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(1, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(478): SSP::simple([...], [...], 'categories', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getCategories()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:37:14 --> ErrorException: Trying to access array offset on value of type int
+in APPPATH\Controllers\AdminController.php on line 709.
+ 1 APPPATH\Controllers\AdminController.php(709): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 709)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(1, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(744): SSP::simple([...], [...], 'sub_categories', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getSubCategories()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:37:40 --> ErrorException: Trying to access array offset on value of type int
+in APPPATH\Controllers\AdminController.php on line 709.
+ 1 APPPATH\Controllers\AdminController.php(709): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 709)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(1, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(744): SSP::simple([...], [...], 'sub_categories', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getSubCategories()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:38:29 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:39:04 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:39:13 --> ErrorException: Undefined array key "columns"
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns"', 'C:\\xampp\\htdocs\\rdjblog\\app\\ThirdParty\\ssp.php', 166)
+ 2 APPPATH\ThirdParty\ssp.php(231): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:39:22 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:39:25 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:39:25 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:39:32 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:39:38 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:41:26 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:41:41 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:41:53 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:42:15 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-25 01:42:18 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\AdminController.php on line 1029.
+ 1 APPPATH\Controllers\AdminController.php(1029): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\AdminController.php', 1029)
+ 2 APPPATH\ThirdParty\ssp.php(51): App\Controllers\AdminController->App\Controllers\{closure}(2, [...])
+ 3 APPPATH\ThirdParty\ssp.php(288): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AdminController.php(1038): SSP::simple([...], [...], 'posts', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getPosts()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-25 01:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 01:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 02:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-25 02:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

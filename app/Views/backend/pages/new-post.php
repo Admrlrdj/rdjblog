@@ -19,7 +19,7 @@
             </nav>
         </div>
         <div class="col-md-6 col-sm-12 text-right">
-            <a href="<?= route_to('all-post') ?>" class="btn btn-primary">View All Post</a>
+            <a href="<?= route_to('all-posts') ?>" class="btn btn-primary">View All Post</a>
         </div>
     </div>
 </div>
@@ -64,7 +64,11 @@
                         <label for=""><b>Post Category</b></label>
                         <select name="category" class="custom-select form-control">
                             <option value="">Choose...</option>
-                            <?php foreach ($categories as $category) : ?>
+                            <?php
+
+                            use App\Libraries\CIAuth;
+
+                            foreach ($categories as $category) : ?>
                                 <option value="<?= $category->id ?>"><?= $category->name ?></option>
                             <?php endforeach; ?>
                         </select>
@@ -110,7 +114,17 @@
 <?= $this->section('scripts'); ?>
 
 <script src="/backend/src/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+<script src="/extra-assets/ckeditor/ckeditor.js"></script>
 <script>
+    $(function() {
+        var elfinderPath = '/extra-assets/elFinder/elfinder.src.php?integration=ckeditor&uid=<?= CIAuth::id() ?>';
+        // alert(elfinderPath);
+        CKEDITOR.replace('content', {
+            filebrowserBrowseUrl: elfinderPath,
+            filebrowserImageBrowseUrl: elfinderPath + '&type=image',
+            removeDialogTabs: 'link:upload;image:upload'
+        });
+    });
     //! Form Add Post
     $('#addPostForm').on('submit', function(e) {
         e.preventDefault();
@@ -118,8 +132,10 @@
         var csrfName = $('.ci_csrf_data').attr('name'); //! CSRF Token Name
         var csrfHash = $('.ci_csrf_data').val(); //! CSRF HASH
         var form = this;
+        var content = CKEDITOR.instances.content.getData();
         var formdata = new FormData(form);
         formdata.append(csrfName, csrfHash);
+        formdata.append('content', content);
 
         $.ajax({
             url: $(form).attr('action'),
@@ -140,6 +156,7 @@
                 if ($.isEmptyObject(response.error)) {
                     if (response.status == 1) {
                         $(form)[0].reset();
+                        CKEDITOR.instances.content.setData('');
                         $('input[name="tags"]').tagsinput('removeall');
                         toastr.success(response.msg);
                     } else {

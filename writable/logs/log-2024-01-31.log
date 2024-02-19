@@ -1,0 +1,939 @@
+INFO - 2024-01-31 00:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 00:29:03 --> ErrorException: Undefined variable $totalTime
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\rdjblog\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(512): include('C:\\xampp\\htdocs\\rdjblog\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 00:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 00:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 01:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 04:38:06 --> ErrorException: unlink(C:\xampp\htdocs\rdjblog\writable\debugbar/debugbar_1706664477.722440.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\rdjblog\\writable\\debugbar/debugbar_1706664477.722440.json): No such file or directory', 'C:\\xampp\\htdocs\\rdjblog\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Collectors\\History.php', 80)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(80): unlink('C:\\xampp\\htdocs\\rdjblog\\writable\\debugbar/debugbar_1706664477.722440.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(496): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1706675885.737707', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 04:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 04:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 05:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 06:06:53 --> ErrorException: Attempt to read property "slug" on null
+in APPPATH\Views\frontend\pages\home.php on line 28.
+ 1 APPPATH\Views\frontend\pages\home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "slug" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/home', [], true)
+ 5 APPPATH\Controllers\BlogController.php(18): view('frontend/pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 06:08:10 --> ErrorException: Attempt to read property "slug" on null
+in APPPATH\Views\frontend\pages\home.php on line 28.
+ 1 APPPATH\Views\frontend\pages\home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "slug" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/home', [], true)
+ 5 APPPATH\Controllers\BlogController.php(18): view('frontend/pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 06:08:10 --> ErrorException: Attempt to read property "slug" on null
+in APPPATH\Views\frontend\pages\home.php on line 28.
+ 1 APPPATH\Views\frontend\pages\home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "slug" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/home', [], true)
+ 5 APPPATH\Controllers\BlogController.php(18): view('frontend/pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 06:08:11 --> ErrorException: Attempt to read property "slug" on null
+in APPPATH\Views\frontend\pages\home.php on line 28.
+ 1 APPPATH\Views\frontend\pages\home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "slug" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/home', [], true)
+ 5 APPPATH\Controllers\BlogController.php(18): view('frontend/pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 06:08:23 --> ErrorException: Attempt to read property "created_at" on null
+in APPPATH\Views\frontend\pages\home.php on line 30.
+ 1 APPPATH\Views\frontend\pages\home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "created_at" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/home', [], true)
+ 5 APPPATH\Controllers\BlogController.php(18): view('frontend/pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 06:09:10 --> ErrorException: Attempt to read property "slug" on null
+in APPPATH\Views\frontend\pages\home.php on line 28.
+ 1 APPPATH\Views\frontend\pages\home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "slug" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/home', [], true)
+ 5 APPPATH\Controllers\BlogController.php(18): view('frontend/pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 06:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 06:10:36 --> ErrorException: Attempt to read property "slug" on null
+in APPPATH\Views\frontend\pages\home.php on line 28.
+ 1 APPPATH\Views\frontend\pages\home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "slug" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/home', [], true)
+ 5 APPPATH\Controllers\BlogController.php(18): view('frontend/pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 06:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 06:27:22 --> ErrorException: Attempt to read property "slug" on null
+in APPPATH\Views\frontend\pages\home.php on line 28.
+ 1 APPPATH\Views\frontend\pages\home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "slug" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/home', [], true)
+ 5 APPPATH\Controllers\BlogController.php(18): view('frontend/pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 06:27:24 --> ErrorException: Attempt to read property "slug" on null
+in APPPATH\Views\frontend\pages\home.php on line 28.
+ 1 APPPATH\Views\frontend\pages\home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "slug" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/home', [], true)
+ 5 APPPATH\Controllers\BlogController.php(18): view('frontend/pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 06:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 06:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 07:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 07:32:33 --> ErrorException: Undefined property: stdClass::$name
+in APPPATH\Views\frontend\pages\home.php on line 31.
+ 1 APPPATH\Views\frontend\pages\home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/home', [], true)
+ 5 APPPATH\Controllers\BlogController.php(18): view('frontend/pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 13:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 13:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 13:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-31 13:31:43 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('rdjadmrl', 'username', Array, NULL, 'login_id')
+#6 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'rdjadmrl', Array, Array)
+#7 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\rdjblog\app\Controllers\AuthController.php(48): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\AuthController->loginHandler()
+#10 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\xampp\htdocs\rdjblog\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rdjblog\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-01-31 13:31:43 --> CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('rdjadmrl', 'username', [...], null, 'login_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'rdjadmrl', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\AuthController.php(48): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->loginHandler()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:31:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'rdjadmrl\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'rdjadmrl\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('rdjadmrl', 'username', [...], null, 'login_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'rdjadmrl', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\AuthController.php(48): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->loginHandler()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:31:43 --> [Caused by] mysqli_sql_exception: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'rdjadmrl\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'rdjadmrl\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'rdjadmrl\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('rdjadmrl', 'username', [...], null, 'login_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'rdjadmrl', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(48): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AuthController->loginHandler()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 13:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 13:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 13:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 13:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 13:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 13:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 13:36:09 --> Error: Class "App\Controllers\Post" not found
+in APPPATH\Controllers\BlogController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('flutter-tutorial')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:39:55 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('images', 'post', 'post-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:39:55 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('images', 'post', 'post-8.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:39:55 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('images', 'author.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:39:55 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('images', 'post', 'post-6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:39:55 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('images', 'post', 'post-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:39:55 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('images', 'post', 'post-9.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:39:55 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('images', 'post', 'post-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:40:59 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:40:59 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'author.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:40:59 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-9.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:40:59 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:40:59 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-8.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:40:59 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:40:59 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:01 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:01 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-9.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:01 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:01 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:01 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'author.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:01 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-8.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:01 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:07 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-8.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:07 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:07 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:07 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:07 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'author.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:09 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:09 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:09 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-8.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:09 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'post', 'post-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:41:09 --> ErrorException: Attempt to read property "name" on null
+in APPPATH\Controllers\BlogController.php on line 30.
+ 1 APPPATH\Controllers\BlogController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('frontend', 'images', 'author.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 13:47:18 --> ErrorException: Undefined property: stdClass::$time
+in APPPATH\Views\frontend\pages\category_posts.php on line 16.
+ 1 APPPATH\Views\frontend\pages\category_posts.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$time', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+ 5 APPPATH\Controllers\BlogController.php(36): view('frontend/pages/category_posts', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('flutter-tutorial')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 13:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 13:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 13:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 13:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 13:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 14:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 14:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 14:03:45 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(45): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:04:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "app\Views\frontend\pages\partials\custom_pagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 4 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+ 8 APPPATH\Controllers\BlogController.php(45): view('frontend/pages/category_posts', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:04:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "app\Views\frontend\pages\partials\custom_pagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('app\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 4 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+ 8 APPPATH\Controllers\BlogController.php(45): view('frontend/pages/category_posts', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:04:53 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(45): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:05:22 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(45): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:05:23 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(45): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:05:57 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(45): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:13:14 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(55): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:13:15 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(55): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:20:07 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(37): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:21:31 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(38): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:21:41 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(38): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:21:44 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(38): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:16 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\BlogController.php on line 45.
+ 1 APPPATH\Controllers\BlogController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:17 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\BlogController.php on line 45.
+ 1 APPPATH\Controllers\BlogController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:18 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\BlogController.php on line 45.
+ 1 APPPATH\Controllers\BlogController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:18 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\BlogController.php on line 45.
+ 1 APPPATH\Controllers\BlogController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:18 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\BlogController.php on line 45.
+ 1 APPPATH\Controllers\BlogController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:18 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\BlogController.php on line 45.
+ 1 APPPATH\Controllers\BlogController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:19 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\BlogController.php on line 45.
+ 1 APPPATH\Controllers\BlogController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:19 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\BlogController.php on line 45.
+ 1 APPPATH\Controllers\BlogController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:19 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\BlogController.php on line 45.
+ 1 APPPATH\Controllers\BlogController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:19 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\BlogController.php on line 45.
+ 1 APPPATH\Controllers\BlogController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\rdjblog\\app\\Controllers\\BlogController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:41 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(49): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 14:24:42 --> ErrorException: Undefined variable $page
+in APPPATH\Views\frontend\pages\partials\custom_pagination.php on line 53.
+ 1 APPPATH\Views\frontend\pages\partials\custom_pagination.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\partials\\custom_pagination.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\frontend\\pages\\partials\\custom_pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination_view')
+ 6 APPPATH\Views\frontend\pages\category_posts.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 6, 7, 'custom_pagination_view')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\rdjblog\\app\\Views\\frontend\\pages\\category_posts.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/category_posts', [], true)
+10 APPPATH\Controllers\BlogController.php(49): view('frontend/pages/category_posts', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->categoryPosts('laravel-tutorial')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 14:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 14:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 14:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 14:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 14:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 14:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 14:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 15:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 16:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 16:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 16:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 16:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 16:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 16:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 16:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 16:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 16:54:00 --> ParseError: syntax error, unexpected token "<", expecting "elseif" or "else" or "endif"
+in APPPATH\Views\frontend\pages\single_post.php on line 25.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/single_post', [], true)
+ 3 APPPATH\Controllers\BlogController.php(126): view('frontend/pages/single_post', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('mvc-tutorial')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 16:58:24 --> Error: Object of type stdClass is not callable
+in APPPATH\Views\frontend\pages\single_post.php on line 67.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/pages/single_post', [], true)
+ 4 APPPATH\Controllers\BlogController.php(126): view('frontend/pages/single_post', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->readPost('mvc-tutorial')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 23:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 23:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

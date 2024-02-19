@@ -25,7 +25,7 @@
                         <span class="micon dw dw-newspaper"></span><span class="mtext">Posts</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="<?= route_to('all-post') ?>" class="dropdown-toggle no-arrow <?= $tabTitle === "All Post" ? 'active' : '' ?>">All Posts</a></li>
+                        <li><a href="<?= route_to('all-posts') ?>" class="dropdown-toggle no-arrow <?= $tabTitle === "All Post" ? 'active' : '' ?>">All Posts</a></li>
                         <li><a href=" <?= route_to('new-post') ?>" class="dropdown-toggle no-arrow <?= $tabTitle === "Add New Post" ? 'active' : '' ?>">Add new</a></li>
                     </ul>
                 </li>
