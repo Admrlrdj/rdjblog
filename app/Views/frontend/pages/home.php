@@ -23,25 +23,27 @@
     </div>
     <div class="col-lg-8 mb-5 mb-lg-0">
         <div class="row">
-            <div class="col-12 mb-4">
-                <article class="card article-card">
-                    <a href="<?= route_to('read-post', get_home_main_latest_post()->slug) ?>">
-                        <div class="card-image">
-                            <div class="post-info">
-                                <span class="text-uppercase"><?= date_formatter(get_home_main_latest_post()->created_at) ?></span>
-                                <span class="text-uppercase"><?= get_reading_time(get_home_main_latest_post()->content) ?></span>
+            <?php if (!empty(get_home_main_latest_post())) : ?>
+                <div class="col-12 mb-4">
+                    <article class="card article-card">
+                        <a href="<?= route_to('read-post', get_home_main_latest_post()->slug) ?>">
+                            <div class="card-image">
+                                <div class="post-info">
+                                    <span class="text-uppercase"><?= date_formatter(get_home_main_latest_post()->created_at) ?></span>
+                                    <span class="text-uppercase"><?= get_reading_time(get_home_main_latest_post()->content) ?></span>
+                                </div>
+                                <img loading="lazy" decoding="async" src="/images/posts/<?= get_home_main_latest_post()->featured_image ?>" alt="Post Thumbnail" class="w-100">
                             </div>
-                            <img loading="lazy" decoding="async" src="/images/posts/<?= get_home_main_latest_post()->featured_image ?>" alt="Post Thumbnail" class="w-100">
+                        </a>
+                        <div class="card-body px-0 pb-1">
+                            <h2 class="h1"><a class="post-title" href="<?= route_to('read-post', get_home_main_latest_post()->slug) ?>"><?= get_home_main_latest_post()->title ?></a></h2>
+                            <p class="card-text"><?= limit_words(get_home_main_latest_post()->content, 35) ?></p>
+                            <div class="content"> <a class="read-more-btn" href="<?= route_to('read-post', get_home_main_latest_post()->slug) ?>">Read Full Article</a>
+                            </div>
                         </div>
-                    </a>
-                    <div class="card-body px-0 pb-1">
-                        <h2 class="h1"><a class="post-title" href="<?= route_to('read-post', get_home_main_latest_post()->slug) ?>"><?= get_home_main_latest_post()->title ?></a></h2>
-                        <p class="card-text"><?= limit_words(get_home_main_latest_post()->content, 35) ?></p>
-                        <div class="content"> <a class="read-more-btn" href="<?= route_to('read-post', get_home_main_latest_post()->slug) ?>">Read Full Article</a>
-                        </div>
-                    </div>
-                </article>
-            </div>
+                    </article>
+                </div>
+            <?php endif; ?>
 
             <?php if (count(get_6_home_latest_posts()) > 0) : ?>
                 <?php foreach (get_6_home_latest_posts() as $post) : ?>
@@ -102,3 +104,7 @@
 </div>
 
 <?= $this->endSection(); ?>
+
+<?php if (!empty(get_home_main_latest_post())) : ?>
+
+<?php endif; ?>
